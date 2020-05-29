@@ -1,0 +1,35 @@
+#server-status-text {
+    font-family: 'glacial_indifferenceregular', Arial, sans-serif;
+    font-size: 25px;
+}
+
+#status-header {
+    font-family: 'glacial_indifferenceregular', Arial, sans-serif;
+    font-size: 70px;
+}
+
+.rounded {
+    border-radius:1rem!important
+}
+
+.text-center::before{
+  content:"";
+  margin-left:calc(100% - 75%);
+}
+
+@font-face {
+    font-family: 'glacial_indifferencebold';
+    src: url('../fonts/glacialindifference/glacialindifference_bold-webfont.woff2') format('woff2'),
+         url('../fonts/glacialindifference/glacialindifference_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'glacial_indifferenceregular';
+    src: url('../fonts/glacialindifference/glacialindifference_regular-webfont.woff2') format('woff2'),
+         url('../fonts/glacialindifference/glacialindifference_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

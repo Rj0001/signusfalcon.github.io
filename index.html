@@ -27,6 +27,8 @@
 	<!-- Use bootstrap for carousel! -->
 	<link rel="stylesheet" type="text/css" href="/home/css/carousel.css">
 
+	<!-- Server status css -->
+	<link rel="stylesheet" type="text/css" href="/home/css/news_and_status.css">
 
 	<title>IanCraft Home</title>
 	<link rel="icon" href="/home/img/webicon.ico" type="image/x-icon">
@@ -57,6 +59,9 @@
 			    <li class="nav-item mx-2">
 			    	<a class="nav-link" href="/members" id="navbar-element">Members</a>
 			    </li>
+				<li class="nav-item mx-2">
+					<a class="nav-link" href="http://iancraft.apexmc.co:8888/index.html" id="navbar-element">Dynmap</a>
+				</li>
 			    <li class="nav-item mx-2">
 			    	<a class="nav-link" href="#" id="navbar-element">Forums</a>
 			    </li>
@@ -65,7 +70,7 @@
 				</li>
 			</ul>
 		</div>
-		<button class="btn btn-outline-success mr-sm-2 my-2 my-sm-0 inline" href="#">Login/Signup</button>
+		<button class="btn btn-outline-success mr-sm-2 my-2 my-sm-0 inline" href="#">Join Now!</button>
 
 	</nav>
 
@@ -119,6 +124,39 @@
 	    <span class="carousel-control-next-icon"></span>
 		<span class="nextbuttongradient"></span>
 	  </a>
+	</div>
+
+	<div class="container-sm">
+		<div class="news-and-status-container">
+			<div class="container rounded bg-dark p-3 my-3 text-white">
+				<div class="row mx-3">
+					<div class="col-sm center-block text-center">
+						<h1 id=status-header>Is the server up?</h1>
+					</div>
+					<div class="col-sm center-block text-center">
+						<div class="row mx-3">
+							<div class="col-sm center-block text-right">
+								<h1 id="server-status-text">Server Status:</h1>
+							</div>
+							<div class="col-sm center-block text-left">
+								<h1 id="server-status-text" style="color:green">Online <span style="color:orange">(0/100)</span> </h1>
+							</div>
+						</div>
+						<div class="row mx-3">
+							<div class="col-sm center-block text-right">
+								<h1 id="server-status-text">Dynmap Status:</h1>
+							</div>
+							<div class="col-sm center-block text-left">
+								<h1 id="server-status-text" style="color:green">Online</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container rounded bg-dark p-3 my-3 text-white" id="server-status-text">News Here</div>
+
+		</div>
 	</div>
 
 	<!-- Script here! -->
