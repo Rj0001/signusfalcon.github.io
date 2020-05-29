@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("/home/img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom, left top;
+}

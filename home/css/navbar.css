@@ -1,0 +1,19 @@
+#navbar-element {
+    font-family: 'glacial_indifferenceregular', Arial, sans-serif;
+    font-size: 18px;
+}
+
+#navbar-element:hover {
+    border-width: 10px;
+    color: white;
+    transition: 0.3s;
+}
+
+@font-face {
+    font-family: 'glacial_indifferenceregular';
+    src: url('../fonts/glacialindifference/glacialindifference_regular-webfont.woff2') format('woff2'),
+         url('../fonts/glacialindifference/glacialindifference_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
