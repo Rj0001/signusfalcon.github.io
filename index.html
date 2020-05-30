@@ -128,33 +128,26 @@
 
 	<div class="news-and-status-container">
 		<div class="container-fluid text-white">
-			<div class="row justify-content-center">
-				<div class="col-sm center-block text-center">
-					<h1 id=status-header>Is the server up?</h1>
+			<div class="row m-auto">
+				<div class="col-sm text-center">
+					<h1 id="server-status-text">Server Status:</h1>
 				</div>
-				<div class="col-sm center-block">
-					<div class="row m-3">
-						<div class="col-sm center-block text-center">
-							<h1 id="server-status-text">Server Status:</h1>
-						</div>
-						<div class="col-sm center-block text-center">
-							<h1 id="server-status-text" style="color:green">Online <span style="color:orange">(0/100)</span> </h1>
-						</div>
-					</div>
-					<div class="row m-3">
-						<div class="col-sm center-block text-center">
-							<h1 id="server-status-text">Dynmap Status:</h1>
-						</div>
-						<div class="col-sm center-block text-center">
-							<h1 id="server-status-text" style="color:green">Online</h1>
-						</div>
-					</div>
+				<div class="col-sm text-center">
+					<h1 id="server-status-text" style="color:green">Online <span style="color:orange">(0/100)</span> </h1>
+				</div>
+			</div>
+			<div class="row d-flex justify-content-center">
+				<div class="col-sm text-center">
+					<h1 id="server-status-text">Dynmap Status:</h1>
+				</div>
+				<div class="col-sm text-center">
+					<h1 id="server-status-text" style="color:green">Online</h1>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="container rounded bg-dark p-3 my-3 text-white" id="server-status-text">News Here</div>
+	<div class="container rounded bg-dark p-3 mx-auto mt-5 mb-3 text-white" id="server-status-text">Latest News And Events</div>
 
 	<!-- Script here! -->
 	<script src="/home/js/navbar.js"></script>
