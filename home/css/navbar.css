@@ -9,11 +9,19 @@
     transition: 0.3s;
 }
 
+#homeNavbar {
+    background: transparent !important;
+    transition: 0.5s ease;
+}
+
+#homeNavbar.scrolled {
+    background: #115 !important;
+}
+
 @font-face {
     font-family: 'glacial_indifferenceregular';
     src: url('../fonts/glacialindifference/glacialindifference_regular-webfont.woff2') format('woff2'),
          url('../fonts/glacialindifference/glacialindifference_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
