@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    	<!-- Important if you want your page to be responsive to device size -->
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    	<!-- Latest compiled and minified CSS -->
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    	<!-- jQuery library -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    	<!-- Popper JS -->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+        <!--Navbar css-->
+        <link rel="stylesheet" type="text/css" href="/home/css/navbar.css">
+
+        <!--Profile details css -->
+        <link rel="stylesheet" type="text/css" href="/members/css/profile.css">
+
+        <!-- Body css -->
+        <link rel="stylesheet" type="text/css" href="/home/css/body.css">
+
+        <title>IanCraft Home</title>
+    	<link rel="icon" href="/home/img/webicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" id="homeNavbar">
+
+    		<div class="logo">
+    			<a class="navbar-brand" href="#">
+    				<img src="/home/img/webicon.png" alt="Logo">
+    			</a>
+    		</div>
+
+    		<button class="navbar-toggler navbar-toggler-center" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        		<span class="navbar-toggler-icon"></span>
+      		</button>
+
+    		<div class="collapse navbar-collapse" id="navbarNav">
+    	  <!-- Links -->
+    		  	<ul class="navbar-nav mr-auto mt-2 mt-sm-0">
+    				<li class="nav-item mx-2">
+    			    	<a class="nav-link" href="/" id="navbar-element">Home</a>
+    			    </li>
+    			    <li class="nav-item mx-2 active">
+    			    	<a class="nav-link" href="/members" id="navbar-element">Back to Members</a>
+    			    </li>
+    				<li class="nav-item mx-2">
+    					<a class="nav-link" href="http://iancraft.apexmc.co:8888/index.html" id="navbar-element">Dynmap</a>
+    				</li>
+    			    <li class="nav-item mx-2">
+    			    	<a class="nav-link" href="#" id="navbar-element">Forums</a>
+    			    </li>
+    				<li class="nav-item mx-2">
+    					<a class="nav-link" href="#" id="navbar-element">Support</a>
+    				</li>
+    			</ul>
+    		</div>
+    		<button class="btn btn-outline-success mr-sm-2 my-2 my-sm-0 inline" href="#">Join Now!</button>
+
+    	</nav>
+
+        <div class="container-fluid" id="header-container"> <!-- has to be responsive -->
+            <div class="row align-items-end">
+                <div class="col-auto m-3">
+                    <img src="/home/img/webicon.png" alt="Profile icon" class="profile-picture"/>
+                </div>
+                <div class="col-sm text-bottom d-flex">
+                    <h1 class="profile-name">SignusFalcon</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Script here! -->
+    	<script src="/home/js/navbar.js"></script>
+
+    </body>
+
+</html>
