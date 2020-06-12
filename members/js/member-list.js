@@ -2,6 +2,7 @@ const signusfalcon = document.querySelector("#signusfalcon");
 const rj0001 = document.querySelector("#rj0001");
 const thisisausername = document.querySelector("#thisisausername");
 const heylale = document.querySelector("#heylale");
+const cannibalwhispers = document.querySelector("#cannibalwhispers");
 
 signusfalcon.addEventListener('click', () => {
     window.location.href = "/members/signusfalcon";
@@ -17,4 +18,8 @@ thisisausername.addEventListener('click', () => {
 
 heylale.addEventListener('click', () => {
     window.location.href = "/members/heylale";
+});
+
+cannibalwhispers.addEventListener('click', () => {
+    window.location.href = "/members/cannibalwhispers"
 });

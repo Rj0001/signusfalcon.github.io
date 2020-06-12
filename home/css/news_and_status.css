@@ -10,6 +10,43 @@
     margin-bottom: 2vw;
 }
 
+#news-header {
+    font-family: 'latoblack', Arial, sans-serif;
+    font-size: 4vw;
+    color: white;
+    background-color: rgba(90, 90, 100, 0.7)!important;
+    text-align: center!important;
+}
+
+#news-container {
+    font-size: 1vw;
+    color: white;
+    background-color: rgba(130, 130, 130, 0.7);
+}
+
+.news-title {
+    font-family: 'glacial-indifferencebold', Arial, sans-serif;
+    font-size: 2vw;
+    color: white
+}
+
+.short-desc {
+    font-family: 'glacial-indifferenceregular', Arial, sans-serif;
+    font-size: 1vw;
+    color: white
+}
+
+.full-article-link {
+    cursor: pointer;
+    text-align: center!important;
+    color: yellow;
+}
+
+.full-article-link:hover {
+    color: aqua;
+    transition:0.5s;
+}
+
 .news-and-status-container {
     background-color: rgba(0, 0, 0, 0.6);
 }
@@ -35,6 +72,15 @@
     font-family: 'glacial_indifferenceregular';
     src: url('../fonts/glacialindifference/glacialindifference_regular-webfont.woff2') format('woff2'),
          url('../fonts/glacialindifference/glacialindifference_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latoblack';
+    src: url('../fonts/lato/lato-black-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
